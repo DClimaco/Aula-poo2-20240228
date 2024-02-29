@@ -10,6 +10,9 @@ namespace Aula_poo2_20240228
     {
         static void Main(string[] args)
         {
+            AgendaTelefonica a = new AgendaTelefonica("Daniel");
+
+            a.Inserir("Daniel", "00009999");
         }
     }
 }
